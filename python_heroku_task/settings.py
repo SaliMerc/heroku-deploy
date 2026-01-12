@@ -28,7 +28,7 @@ DEBUG = config('DEBUG')
 
 ALLOWED_HOSTS = ['heroku-deploy-production.up.railway.app', 'localhost']
 
-
+CSRF_TRUSTED_ORIGINS = ['https://heroku-deploy-production.up.railway.app']
 # Application definition
 
 INSTALLED_APPS = [
